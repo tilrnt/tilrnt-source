@@ -5,7 +5,7 @@ Short articles / notes which don't make it into a full blog post but still usefu
 
 ## TODO
 
--[ ] Add categories to each post on index page
+- [ ] Add categories to each post on index page
 
 
 ## Resources
