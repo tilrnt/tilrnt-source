@@ -2,6 +2,16 @@
 
 Short articles / notes which don't make it into a full blog post but still useful to be documented
 
+# Procedure for publishing
+
+- Write the posts as per normal into _posts
+
+- Add to master
+
+- To publish, bundle exec jekyll build
+
+- Cd into _site, then git push origin master
+
 
 ## TODO
 
