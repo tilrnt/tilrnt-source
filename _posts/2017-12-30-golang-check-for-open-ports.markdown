@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ways to check for active / open ports in go lang"
+title:  "Checking for open ports in go lang"
 date:   2017-12-30 00:00:00 +0000
 categories: go-lang
 ---
