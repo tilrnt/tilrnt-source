@@ -2,7 +2,7 @@
 layout: post
 title:  "Checking for open ports in go lang"
 date:   2017-12-30 00:00:00 +0000
-categories: go-lang
+categories: golang network
 ---
 I had to create a periodic status check for an open port on a specific host for a service I was creating recently. The status check has to work for both the localhost in development and also on the remote host.
 

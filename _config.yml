@@ -23,6 +23,11 @@ url: "https://tilrnt.github.io" # the base hostname & protocol for your site, e.
 twitter_username:
 github_username: cheeyeo
 
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+header_pages:
+  - about.md
+
 # Build settings
 markdown: kramdown
 theme: minima
