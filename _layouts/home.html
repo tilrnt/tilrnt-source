@@ -18,7 +18,10 @@ layout: default
           <h3>
             <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
           </h3>
-          <span class="">
+          <div class="post-content e-content" itemprop="articleBody">
+            {{ post.content }}
+          </div>
+          <span>
             {% for category in post.categories %}
               <a href="/categories/{{ category }}">{{ category }}</a>
             {% endfor %}

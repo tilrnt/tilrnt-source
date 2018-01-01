@@ -22,13 +22,14 @@ func main() {
 
   if err != nil {
     // Log or report the error here
+    fmt.Printf("Error: %s\n", err)
   }
 }
 {% endhighlight %}
 
 We use [Listen][net pkg Listen] above as it works for localhost only.
 
-For testing the remote port, we can use [DialTimeout][net pkg DialTimeout] as it accepts a custom timeout parameter:
+For testing the remote port, we can use [DialTimeout][net pkg DialTimeout] as it accepts a custom timeout parameter, which we can use to check for timeout errors:
 
 {% highlight go %}
 package main
@@ -45,8 +46,15 @@ func main() {
   conn, err := net.DialTimeout("tcp", host, time.Duration(timeoutSecs)*time.Second)
   defer conn.Close()
 
+  if err, ok := err.(*net.OpError); ok && err.TimeOut() {
+    fmt.Printf("Timeout error: %s\n", err)
+    return
+  }
+
   if err != nil {
     // Log or report the error here
+    fmt.Printf("Error: %s\n", err)
+    return
   }
 }
 {% endhighlight %}
