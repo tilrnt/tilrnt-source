@@ -17,6 +17,4 @@ machine github.com
 
 This is also documented in the dep repo:
 
-```
-https://github.com/golang/dep/blob/master/docs/FAQ.md#how-do-i-get-dep-to-consume-private-git-repos-using-a-github-token
-```
+[Private git repos using github token](https://github.com/golang/dep/blob/master/docs/FAQ.md#how-do-i-get-dep-to-consume-private-git-repos-using-a-github-token)

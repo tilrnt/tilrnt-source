@@ -43,4 +43,5 @@ lsvirtualenv
 
 ## Additional Resources
 [virtualenv docs]: https://virtualenv.pypa.io/en/stable/
+
 [virtualenvwrapper docs]: http://virtualenvwrapper.readthedocs.io/en/latest/index.html

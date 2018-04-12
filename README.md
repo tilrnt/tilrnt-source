@@ -20,6 +20,8 @@ Short articles / notes which don't make it into a full blog post but still usefu
 
 ## Resources
 
+- https://guides.github.com/features/mastering-markdown/#examples
+
 - https://gist.github.com/davebowker/21f0d54d8f29bfdfda19
 
 - https://github.com/recurser/jekyll-plugins
