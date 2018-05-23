@@ -31,12 +31,5 @@ sudo yum update
 ```
 
 ## Additional Resources
-[RedHat Support ticket]
-
-[Same Issue from HPE]
-
-
-
-[RedHat support ticket]: (https://access.redhat.com/solutions/2256321)
-
-[Same Issue from HPE]: (https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0131971)
+[RedHat support ticket](https://access.redhat.com/solutions/2256321)
+[Same Issue from HPE](https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0131971)

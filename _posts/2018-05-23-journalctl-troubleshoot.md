@@ -14,10 +14,7 @@ sudo journalctl -b -p err
 
 One can then page through the errors list, if any, to resolve any issue.
 
-More details on how systemd works can be found on [Wikipedia] and there is
-a [DigitalOcean tutorial].
+## Resources
+[Wikipedia](https://en.wikipedia.org/wiki/Systemd)
 
-
-[Wikipedia]: (https://en.wikipedia.org/wiki/Systemd)
-
-[DigitalOcean tutorial]: 9https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs
+[DigitalOcean tutorial](https://www.digitalocean.com/community/tutorials/how-to-use-journalctl-to-view-and-manipulate-systemd-logs)
