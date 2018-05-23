@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "yum update Protected multilib versions"
-date:   2018-02-14 00:00:00 +0000
+date:   2018-04-12 00:00:00 +0000
 categories: redhat linux
 ---
 
@@ -31,6 +31,12 @@ sudo yum update
 ```
 
 ## Additional Resources
-[RedHat support ticket](https://access.redhat.com/solutions/2256321)
+[RedHat Support ticket]
 
-[Same Issue from HPE](https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0131971)
+[Same Issue from HPE]
+
+
+
+[RedHat support ticket]: (https://access.redhat.com/solutions/2256321)
+
+[Same Issue from HPE]: (https://support.hpe.com/hpsc/doc/public/display?docId=mmr_kc-0131971)
