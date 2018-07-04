@@ -26,6 +26,6 @@ git pull
 
 Run ```dep ensure -update <dependency>``` again and it should work again.
 
-This is an open issue on the golang [dep repository]:
+This is an open issue on the golang [dep repository]{:target="_blank"}:
 
-[dep repository]: (https://github.com/golang/dep/issues/484)
+[dep repository]: https://github.com/golang/dep/issues/484
